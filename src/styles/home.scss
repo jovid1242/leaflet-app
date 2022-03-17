@@ -1,0 +1,22 @@
+.journal {
+  width: 100%;
+
+  .logo .logo__title {
+    font-size: 24px;
+    font-weight: normal;
+    color: aquamarine;
+  }
+
+  .j__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box:nth-child(1) {
+      width: 50%;
+    }
+    .box:nth-child(2) {
+      width: 50%;
+    }
+  }
+}
